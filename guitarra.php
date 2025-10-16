@@ -1,6 +1,6 @@
 
 <?php require_once "./vistas/vista_superior.php" ?>
 
-Esta es la pagina principal
+Esta es las pagina de Guitarras
 
 <?php require_once "./vistas/vista_inferior.php" ?>

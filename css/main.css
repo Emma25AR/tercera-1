@@ -84,6 +84,96 @@ menu {
     border-radius: 2px;
 }
 
+.card-list {
+
+    background-color: aqua;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.card-item {
+
+    background-color: blueviolet;
+    width: 30%;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 3px 3px 6px 0 black;
+}
+
+.card-item:hover {
+    transform: translateY(-2px) scale(1.02);
+}
+
+.card-item img {
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.card-info {
+    width: auto;
+    height: auto;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.card-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-desc {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+
+}
+
+.card-cta {
+   width: 120px;
+   height: 30px;
+   border: 2px solid black;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4px;
+   box-shadow: 3px 3px 6px 0 black;
+}
+
+.card-cta:hover{
+    transform: scale(1.01)translateX(3px) translateY(-3px);
+}
+
 @media screen and (max-width: 1000px) {
     .menu-container {
         width: 100%;
@@ -117,7 +207,8 @@ menu {
         flex-direction: column;
         align-items: center;
         position: absolute;
-        top: 100%; /* justo debajo del header */
+        top: 100%;
+        /* justo debajo del header */
         right: 20px;
         background-color: lightcoral;
         padding: 20px;
@@ -126,5 +217,28 @@ menu {
         z-index: 5;
         gap: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-item {
+        width: 85%;
+        margin-bottom: 50px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-title{
+        font-size: 70px;
+    }
+
+    .card-desc{
+        height: auto;
+        font-size: 50px;
+    }
+
+    .card-cta {
+        width: auto;
+        height: auto;
+        font-size: 50px;
+        padding: 30px;
+        margin: 50px 0 30px 30px;
     }
 }

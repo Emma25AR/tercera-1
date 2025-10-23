@@ -117,7 +117,7 @@ menu {
     width: 100%;
     height: auto;
     object-fit: cover;
-    
+
 }
 
 .card-info {
@@ -158,21 +158,84 @@ menu {
 }
 
 .card-cta {
-   width: 120px;
-   height: 30px;
-   border: 2px solid black;
-   text-decoration: none;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border-radius: 4px;
-   box-shadow: 3px 3px 6px 0 black;
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 3px 3px 6px 0 black;
 }
 
-.card-cta:hover{
+.card-cta:hover {
     transform: scale(1.01)translateX(3px) translateY(-3px);
+
 }
+
+.main-accordion-container {
+    width: 100%;
+    
+
+}
+
+.accordion-item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid black;
+
+
+}
+
+
+
+.accordion-title {
+    width: 100%;
+    height: auto;
+    background-color: rgb(212, 107, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.accordion-title:hover {
+    background-color: rgb(255, 169, 108);
+    transform: scale(1.02);
+    
+}
+
+.accordion-desc {
+    display: none;
+}
+
+.tab-active .accordion-desc {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 169, 108);
+    border-top: 1px solid black;
+    padding: 20px 0;
+
+}
+
+
+
+
 
 @media screen and (max-width: 1000px) {
     .menu-container {
@@ -225,11 +288,11 @@ menu {
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     }
 
-    .card-title{
+    .card-title {
         font-size: 70px;
     }
 
-    .card-desc{
+    .card-desc {
         height: auto;
         font-size: 50px;
     }
@@ -241,4 +304,12 @@ menu {
         padding: 30px;
         margin: 50px 0 30px 30px;
     }
+    .accordion-title {
+        font-size: 70px;
+    }
+    .tab-active .accordion-desc {
+        font-size: 60px;
+        margin: 10px ;
+    }
+
 }

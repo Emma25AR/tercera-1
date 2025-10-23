@@ -17,7 +17,7 @@ const dataCards = [
     },
     {
         "title": "Playstation",
-        "url_image": "./img/playstation.jpg",
+        "url_image": "./imgs/bajoAcus.jpg",
         "desc": "Muchos juegos exclusivos",
         "cta": "Mostrar más...",
         "link": "./ps5.php"

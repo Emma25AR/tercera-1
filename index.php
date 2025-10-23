@@ -4,10 +4,10 @@
 Esta es la pagina principales
 
 <body >
+<div class="main-accordion-container"></div>
 
-<div class="card-list">
+<div class="card-list"></div>
 
 
-</div>
 </body>
 <?php require_once "./vistas/vista_inferior.php" ?>

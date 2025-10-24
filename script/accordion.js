@@ -2,12 +2,20 @@ console.log("Cargando Acordión...");
 
 const dataAccordion = [
   {
-    title: "Nuevos lanzamientos",
-    desc: "Ofrecemos lo último en videojuegos.",
+    title: "Instrumentos Musicales",
+    desc: "Ofrecemos instrumentos de alta calidad",
   },
   {
-    title: "Juegos Retro",
-    desc: "Contamos con una gran extensión de juegos retro.",
+    title: "Musica Reciente",
+    desc: "Tame Impala lanza su reciente Tiny desk",
+    link: "https://youtu.be/xSDfCwDmJNo?si=hIYw1IMOcvFHTobE",
+    desc2: "Macario Martinez - Otra vez",
+    link2: "https://youtu.be/WdzYTblHzG4?si=kDYL-ZMHKrrHqiQT", 
+  },
+  {
+    title: "Recomendacion Semanal",
+    desc: "Adios Cometa - Transparente - Conquista Sessions 33",
+    link: "https://youtu.be/eJD_g8TbkS0?si=xQg_iCXjpPzbHDgF", 
   },
   {
     title: "Dónde estamos ubicados?",
@@ -41,12 +49,19 @@ const dataAccordion = [
       }
     },
 
-    tplAccordionItem: function (item) {
-      return `<div class='accordion-item'>
-                <div class='accordion-title'><p>${item.title}</p></div>
-                <div class='accordion-desc'><p>${item.desc}</p></div>
-            </div>`;
-    },
+tplAccordionItem: function (item) {
+  // Si el item tiene link, usar <a>, si no usar <p>
+  let descHTML = item.link
+    ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.desc}</a>`
+    : `<p>${item.desc}</p>`;
+
+  return `
+    <div class='accordion-item'>
+      <div class='accordion-title'><p>${item.title}</p></div>
+      <div class='accordion-desc'>${descHTML}</div>
+    </div>
+  `
+},
 
     showTab: function (refItem) {
       let activeTab = document.querySelector("tab-active");

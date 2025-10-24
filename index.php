@@ -1,7 +1,7 @@
 
 <?php require_once "./vistas/vista_superior.php" ?>
 
-Esta es la pagina principales
+
 
 <body >
 <div class="main-accordion-container"></div>

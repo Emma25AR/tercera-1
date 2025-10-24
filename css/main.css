@@ -16,7 +16,7 @@ menu {
 .menu-izquierda {
     width: 150px;
     height: 100%;
-    background-color: aqua;
+   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,11 +32,10 @@ menu {
 .menu-derecha {
     width: 100%;
     height: 100%;
-    background-color: lightcoral;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .menu-derecha a {
@@ -45,7 +44,7 @@ menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     text-decoration: none;
     color: blanchedalmond;
     font-weight: bold;
@@ -56,11 +55,15 @@ menu {
     border-radius: 10px;
 }
 
+.menu-derecha a:hover{
+    background-color: rgb(46, 45, 45);
+}
+
 .menu-container {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     position: relative;
     padding-right: 20px;
@@ -86,7 +89,7 @@ menu {
 
 .card-list {
 
-    background-color: aqua;
+    background-color: rgb(247, 248, 248);
     width: 100%;
     height: auto;
     display: flex;
@@ -98,7 +101,7 @@ menu {
 
 .card-item {
 
-    background-color: blueviolet;
+    background-color: rgb(212, 107, 31);
     width: 30%;
     height: auto;
     margin: 0 10px;
@@ -220,7 +223,19 @@ menu {
     display: none;
 }
 
+.accordion-desc a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.accordion-desc a:hover {
+  text-decoration: underline;
+  color: rgb(54, 54, 54);
+}
+
 .tab-active .accordion-desc {
+
     width: 100%;
     height: auto;
     display: flex;
@@ -229,6 +244,8 @@ menu {
     justify-content: center;
     background-color: rgb(255, 169, 108);
     border-top: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
     padding: 20px 0;
 
 }

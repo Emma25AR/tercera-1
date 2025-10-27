@@ -8,6 +8,8 @@
 
 <div class="carousel-container"></div>
 
+<h4>Productos Destacados</h4>
+
 <div class="card-list"></div>
 
 

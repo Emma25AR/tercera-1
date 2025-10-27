@@ -10,14 +10,14 @@ const dataCards = [
     },
     {
         "title": "Guitarras",
-        "url_image": "./imgs/guitarras.jpg",
+        "url_image": "./imgs/fenderStrato.jpg",
         "desc": "Guitarras",
         "cta": "Mostrar más...",
         "link": "./guitarra.php"
     },
     {
         "title": "Playstation",
-        "url_image": "./imgs/bajoAcus.jpg",
+        "url_image": "./imgs/bajoE.jpg",
         "desc": "Muchos juegos exclusivos",
         "cta": "Mostrar más...",
         "link": "./ps5.php"

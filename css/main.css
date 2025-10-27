@@ -16,12 +16,15 @@ menu {
 .menu-izquierda {
     width: 150px;
     height: 100%;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
+}
+
+.menu-izquierda img:hover{
+    height: 90px;
 }
 
 .menu-normal {
@@ -46,13 +49,13 @@ menu {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: blanchedalmond;
+    color: white;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 5px;
     padding: 10px;
     box-shadow: 3px 3px 6px 0 white;
-    border-radius: 10px;
+    border-radius: 10px  60px;
 }
 
 .menu-derecha a:hover {
@@ -67,11 +70,12 @@ menu {
     align-items: center;
     position: relative;
     padding-right: 20px;
+   
 }
 
 .hamburger-icon {
-    width: 35px;
-    height: 25px;
+    width: 40px;
+    height: 35px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -118,7 +122,7 @@ menu {
 .card-item img {
 
     width: 100%;
-    height: auto;
+    height: 600px;
     object-fit: cover;
 
 }
@@ -330,11 +334,33 @@ menu {
     color: black;
 }
 
+h4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
 
 
 
 
 @media screen and (max-width: 1000px) {
+    menu {
+       height: 180px;
+    }
+
+    .menu-derecha a {
+        width: 160px;
+    }
+    .menu-derecha a:hover{
+        background-color: rgb(46, 45, 45);
+    }
     .menu-container {
         width: 100%;
         height: 100px;
@@ -363,6 +389,9 @@ menu {
     }
 
     .menu-container.menu-open .menu-normal {
+        width: 25%;
+        font-size: 35px;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -370,7 +399,7 @@ menu {
         top: 100%;
         /* justo debajo del header */
         right: 20px;
-        background-color: lightcoral;
+        background-color: black;
         padding: 20px;
         border-radius: 15px;
         border: 2px solid white;

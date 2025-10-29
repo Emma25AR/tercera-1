@@ -2,23 +2,23 @@ console.log("Cargando Cards");
 
 const dataCards = [
     {
-        "title": "Bajos",
+        "title": "Bajos Acusticos",
         "url_image": "./imgs/bajoAcus.jpg",
-        "desc": "El mejor del año, esta vez fue otorgado para un título muy importante lanzado en julio pasado para la consola Nintendo.",
+        "desc": "Tenemos las mejores opciones en bajos acusticos, distinto tipos de maderas y mejores marcas del mercado",
         "cta": "Mostrar más...",
         "link": "./bajos.php"
     },
     {
         "title": "Guitarras",
         "url_image": "./imgs/fenderStrato.jpg",
-        "desc": "Guitarras",
+        "desc": "La mejor coleccion de guitarras que puedes encontrar, con gran variedad de tipos y de estilos diferentes para todo el publico",
         "cta": "Mostrar más...",
         "link": "./guitarra.php"
     },
     {
-        "title": "Playstation",
+        "title": "Bajos Electricos",
         "url_image": "./imgs/bajoE.jpg",
-        "desc": "Muchos juegos exclusivos",
+        "desc": "La mejor coleccion de bajos electricos que puedes encontrar, con gran variedad de tipos y de estilos diferentes para todo el publico",
         "cta": "Mostrar más...",
         "link": "./ps5.php"
     }

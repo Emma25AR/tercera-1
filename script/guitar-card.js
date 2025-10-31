@@ -3,7 +3,7 @@ console.log("Loading Guitar Products");
 const guitarProducts = [
   {
     title: "Fender Stratocaster",
-    image_url: "./imgs/fender-stratocaster.png",
+    image_url: "./imgs/fenderStrato.jpg",
     price: "$550,000",
     cta: "Add to cart"
   },

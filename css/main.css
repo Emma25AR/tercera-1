@@ -358,7 +358,28 @@ h4 {
 }
 
 /* Container of all product cards */
-.product-list {
+.product-list-guitars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.product-list-basses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.product-list-drums{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.product-list-others{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -366,7 +387,6 @@ h4 {
   padding: 30px;
 }
 
-/* Each product card */
 .product-item {
   background-color: #fff;
   border-radius: 10px;
@@ -469,8 +489,9 @@ h4 {
   font-size: 0.9rem;
   color: #aaa;
 }
-
-
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -562,7 +583,47 @@ h4 {
 
     .tab-active .accordion-desc {
         font-size: 60px;
-        margin: 10px;
+       
     }
 
+  .product-list,
+  .product-list-guitars,
+  .product-list-basses,
+  .product-list-drums,
+  .product-list-others {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .product-item {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .product-item img {
+    height: 350px;
+  }
+
+  .product-info {
+    padding: 25px;
+  }
+
+  .product-title {
+    font-size: 1.8rem;
+  }
+
+  .price {
+    font-size: 1.5rem;
+  }
+
+  .add-cart-btn {
+    font-size: 1.2rem;
+    padding: 14px 24px;
+  }
+
+  h2{
+    font-size: 60px;
+    
+  }
 }

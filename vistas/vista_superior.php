@@ -22,10 +22,10 @@
         <div class="menu-container">
             <div class = "menu-normal">
             <a href="./">Inicio</a>
-            <a href="./guitarra.php">Guitarra</a>
+            <a href="./guitarra.php">Guitarras</a>
             <a href="./bajos.php">Bajos</a>
             <a href="./baterias.php">Baterias</a>
-            <a href="./contacto.php">Contacto</a>
+            <a href="./otros.php">Otros</a>
             </div>
             <div class="hamburger-icon">
                     <span></span>

@@ -4,7 +4,8 @@
 <body>
   <h2 class="section-title"> Guitarras disponibles</h2>
 
-  <div class="product-list"></div>
+  <div class="product-list-guitars"></div>
+
 
 </body>
 

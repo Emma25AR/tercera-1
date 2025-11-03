@@ -4,7 +4,7 @@
 
     <div class="footer-logo">
       <img src="./imgs/logoG.png" alt="Logo" height="60">
-      <p>Tienda Musical 🎸</p>
+      <p>GrooveHouse</p>
     </div>
 
     <div class="footer-links">
@@ -14,7 +14,7 @@
         <li><a href="./guitarra.php">Guitarras</a></li>
         <li><a href="./bajos.php">Bajos</a></li>
         <li><a href="./baterias.php">Baterías</a></li>
-        <li><a href="./contacto.php">Contacto</a></li>
+        <li><a href="./otros.php">Otros</a></li>
       </ul>
     </div>
 
@@ -30,7 +30,7 @@
   </div>
 
   <div class="footer-bottom">
-    <p>© 2025 Tienda Musical - Todos los derechos reservados</p>
+    <p>© 2025 GrooveHouse - Todos los derechos reservados</p>
   </div>
 </footer>
 
@@ -40,6 +40,9 @@
 <script src="./script/accordion.js"></script>
 <script src="./script/carousel.js"></script> 
 <script src="./script/guitar-card.js"></script>
+<script src="./script/bass-card.js"></script>
+<script src="./script/drums-card.js"></script>
+<script src="./script/other-card.js"></script>
 
 </html>
 

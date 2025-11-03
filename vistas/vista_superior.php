@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="Tercera 1" content="Proyecto Universitario">
     <title> Tercera 1 </title>
+    <link rel="icon" type="image/png" href="./imgs/logoG.png">
     <link rel="stylesheet" href="./css/main.css">
 
 </head>

@@ -11,13 +11,13 @@ const dataCarousel = [
     "title": "Clase de guitarra gratis",
     "image": "./imgs/clases1.jpeg",
     "desc": "Ven a aprender acordes básicos con nuestros expertos.",
-    "link": "./eventos.php"
+    "link": "https://share.google/fNEFAMVXdMHUxP6Ov"
   },
   {
     "title": "Promociones en marca Fender",
     "image": "./imgs/fenders.jpg",
     "desc": "Ofertas especiales en instrumentos todo el mes.",
-    "link": "./eventos.php"
+    "link": "./guitarra.php"
   }
 ];
 
